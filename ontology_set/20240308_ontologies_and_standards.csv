@@ -1,0 +1,66 @@
+"id";"name";"alternative_name";"standard";"creator";"last_update_year";"domain";"url";"syntax"
+57;"Accomodation Ontology";;;"Universität Innbruck";;;"http://ontologies.sti-innsbruck.at/acco/ns.html";
+39;"Air Traffic Management Ontology";"ATM NASA";;"NASA";2018;"transport";"https://data.nasa.gov/ontologies/atmonto/ATM";
+38;"Aircraft-ontology";;;"Markus Ast";2013;"transport";"https://github.com/astbhltum/Aircraft-Ontology";"xml/rdf"
+65;"AlpineBits Hoteldata and Destinationdata standards";;;"AlpineBits Alliance";;"tourism";"https://www.alpinebits.org/open-standard/";
+44;"AURORAL Ontology";"AURORAL";;"AURORAL";2023;"tourism";"https://github.com/oeg-upm/auroral-tourism-ontology";
+18;"Basic Geo ";;"WGS84";"W3C Semantic Web Interest Group";2009;"geo";"https://www.w3.org/2003/01/geo/#vocabulary";
+6;"Catena-X Vehicle Ontology";;;"Catena-X";2024;"vehicle";"https://raw.githubusercontent.com/catenax-ng/product-ontology/main/ontology/vehicle_ontology.ttl";"ttl"
+8;"Data Catalog Vocabulary V3";"DCAT";;"W3C";2024;"data";"https://www.w3.org/TR/vocab-dcat-3/";"ttl"
+14;"Data Quality Management Vocabulary Specification";"DQM";;"E-Business+Web Science Research Group";2011;"data";"http://semwebquality.org/dqm-vocabulary/v1/dqm";
+12;"Data Quality Vocabulary";"DQV";;"W3C";2016;"data";"https://www.w3.org/TR/vocab-dqv/";
+24;"DATAtourisme";;;"ADN Tourisme";2023;"tourism";"https://www.datatourisme.fr/ontology/core/";"ttl"
+31;"DDI-RDF Discovery Vocabulary";"Disco";;"DDI";2024;"data";"https://rdf-vocabulary.ddialliance.org/discovery.html#classes";
+62;"Digital Tourism Hub - Ontolgie";;;"Repubblica Italiana - Ministero del Tourismo";2022;"tourism";"https://www.ministeroturismo.gov.it/tourism-digital-hub/";
+13;"Dublin Core";"DCMI";;"Dublin Core Metadata Initiative";2020;"data";"https://www.dublincore.org/specifications/dublin-core/dcmi-terms/";"ttl"
+59;"EBUCore";;;"EBU";;;"http://www.ebu.ch/metadata/ontologies/ebucore/";
+41;"ERA Vocabulary";"ERA";;"European Union Agency for Railways";2023;"transport";"https://data-interop.era.europa.eu/era-vocabulary/index-en.html";"ttl"
+52;"EU Cross-border Company Mobility";"EU-CBCM";;"Marcus Meyer (Maastricht University)";2022;"law/transaction";"https://maastrichtu-ids.github.io/cbcm-ontology/docs/summary/index.html";
+28;"European Union Company Mobility Ontology";"EU-CM-Ontology";;"Marcus Meyer (Maastricht University)";2021;"transaction";"https://akswnc7.informatik.uni-leipzig.de/dstreitmatter/archivo/w3id.org/um--cbcm--eu-cm-ontology/2022.02.12-044324/um--cbcm--eu-cm-ontology_type=parsed.ttl";"ttl"
+32;"Europeana Data Model";"EDM";;"Europeana";2017;"tourism";"https://pro.europeana.eu/files/Europeana_Professional/Share_your_data/Technical_requirements/EDM_Documentation//EDM_Definition_v5.2.8_102017.pdf";
+55;"Friend of a Friend";"FOAF";;;;"other";"http://xmlns.com/foaf/spec/index.rdf";
+9;"GAIA-X Core Ontology";;;"Gaia-X";2022;"data";"https://gaia-x.gitlab.io/gaia-x-community/gaia-x-self-descriptions/core/core.html";"ttl"
+34;"GeoNames Ontology Vocabulary";"GeoNames";"WGS84 ";;2021;"geo";"https://www.geonames.org/ontology/ontology_v3.3.rdf";"rdf"
+43;"GeoSPARQL Ontology";"GeoSPARQL";;"Open Geospatial Consortium";2024;"geo";"https://opengeospatial.github.io/ogc-geosparql/geosparql11/geo.ttl";"ttl"
+26;"Good Relations";;;"Martin Hepp";2011;"transaction";"https://www.heppnetz.de/ontologies/goodrelations/v1.html";"rdf/xml"
+1;"GTFS";;"GTFS";"iRail";2011;"transport";"http://vocab.gtfs.org/gtfs.ttl";"ttl"
+2;"GTFS Ontology";"GTFS_ontology";"GTFS";"Urban Traffic & Economics Lab";2024;"transport";"https://raw.githubusercontent.com/UTEL-UIUC/GTFS_Ontology/main/GTFS_base.ttl";"ttl"
+10;"Hydra";;;"Google";2021;"data";"https://www.hydra-cg.com/spec/latest/core/";"ttl"
+40;"ICARUS Ontology";;;"ICARUS";2020;"transport";"https://github.com/UCY-LINC-LAB/icarus-ontology";
+61;"INSEE";;;"INSEE";;;"https://github.com/InseeFr/Ontologies/tree/master";
+11;"International Data Spaces Information Model";;;"IDSA";2022;"data";"https://international-data-spaces-association.github.io/InformationModel/docs/index.html#";"ttl"
+64;"ISO/AWI 20525";;;"International Organization for Standardization (ISO)";;"tourism";"https://www.iso.org/standard/86307.html";
+35;"JSON-LD Vocabulary";"JSONLD";;"W3C";2020;"data";"https://www.w3.org/ns/json-ld";"ttl"
+23;"km4city Knowledge Model for City and Mobility";;;"DISIT";2020;"smart_cities";"http://www.disit.org/km4city/schema";"ttl"
+53;"Linked Connections Vocabulary";;;"Linked Connections";2021;"mobility";"https://raw.githubusercontent.com/linkedconnections/vocabulary/master/vocabulary.ttl";"ttl"
+36;"Linked Data Platform";"LDP";;"W3C";2015;"data";"https://www.w3.org/TR/ldp/";"ttl"
+0;"Linked-GTFS";;"GTFS";"OpenTransport";2015;"transport";"https://raw.githubusercontent.com/OpenTransport/linked-gtfs/master/gtfs.ttl";"ttl"
+45;"Ng-tourism-ontology";;;"Aniekan Inyang";2019;"tourism";"https://github.com/AniekanInyang/Ng-tourism-ontology";
+27;"ODRL Vocabulary";"ODRL";;"W3C";2018;"transaction";"https://www.w3.org/TR/odrl-vocab/";"ttl"
+63;"Open Data Tourism Alliance (ODTA)";;;"Open Data Tourism Alliance (ODTA)";2023;"tourism";"https://open-data-germany.org/en/open-data-germany/#tab-2640c96671c985d5130";
+46;"Open Standard for Tourism Ecosystems Data";;;"Open Knowledge Belgium";2015;"tourism";"http://tourism.openknowledge.be/spec/";
+16;"OpenStreetMap Ontology";"OSMO";;"OpenStreetMap";;"geo";"https://raw.githubusercontent.com/doroam/planning-do-roam/master/Ontology/tags.owl";"ttl"
+58;"Ordered List Ontology";"OLO";;;;;"http://smiy.sourceforge.net/olo/spec/orderedlistontology.html";
+21;"Organization Ontology";"Vocab-Org";;"W3C";2014;"other";"https://www.w3.org/TR/vocab-org/";"ttl"
+17;"OSM Semantic Network Geonames";"OsmSemanticNetwork";;"OpenStreetMap";2014;"geo";"   ";"rdf"
+7;"Provenance Ontology";"PROV-O";;"W3C";2013;"data";"https://www.w3.org/TR/prov-o/";"ttl"
+56;"Schema.org";;;;2016;"other";"http://topbraid.org/schema/";
+19;"Schema-aire-livraison";;;"CEREMA";2024;"logistics";"https://github.com/CEREMA/schema-aire-livraison/blob/main/schema.json";"json"
+20;"Schema-arrete-circulation-marchandises";;;"CEREMA";2024;"logistics";"https://github.com/CEREMA/schema-arrete-circulation-marchandises/blob/master/schema.json";"json"
+33;"Semantically-Interlinked Online Communities";"SIOC";;"Latvia University";2018;"data";"http://rdfs.org/sioc/spec/";
+15;"Simple Knowledge Organization System";"SKOS";;"W3C";2009;"data";"https://www.w3.org/2009/08/skos-reference/skos.html";
+29;"SMD SmartCities";;;"FIWARE";2024;"smart_cities";"https://github.com/smart-data-models/SmartCities";"json-ld"
+30;"SMD SmartDestination";;;"FIWARE";2024;"tourism";"https://github.com/smart-data-models/SmartDestination";"json-ld"
+37;"System-Wide Information Management";"SWIM";;"Federal Aviation Administration";2019;"transport";"https://semantics.aero/pages/swim-vocabulary.html";"ttl"
+60;"TIFV3.1";"TourinFrance";;"GTTIF";;;;
+22;"Time Ontology";;;"Luigi Asprino (W3C)";;"other";"https://w3id.org/MON/time.owl";"ttl"
+49;"Transmodel Ontology";;;"CEFRIEL";2021;"mobility";"https://github.com/oeg-upm/transmodel-ontology/tree/master";
+5;"Transportation Ontology Coordination Committee";"TOCC";;"W3C Automotive and Transportation Business Group";2022;"transport";"https://github.com/w3c/tocc";
+50;"Transportation System Ontology";;;"Megan Katsumi (Toronto University)";2017;"mobility";"https://enterpriseintegrationlab.github.io/icity/TransportationSystem/doc/index-en.html";
+47;"Travel Cost Ontology";;;"Megan Katsumi (Toronto University)";2017;"tourism";"https://enterpriseintegrationlab.github.io/icity/TravelCost/doc/index-en.html";
+48;"Trip Ontology";;;"Megan Katsumi (Toronto University)";2017;"tourism";"https://github.com/dhlab-basel/trip-ontology";
+51;"Urban IoT Ontologies - Electric Mobility Module";;;"Comune di Milano";;"smart_cities";"https://comune-milano.github.io/ontologie-iot-urbani/docs/electric/index-en.html";
+4;"Vehicle Ontology";;;"Megan Katsumi (Toronto University)";2017;"transport";"http://ontology.eil.utoronto.ca/icity/Vehicle/1.2/";"ttl"
+25;"Vehicle Sales Ontology";;;"Martin Hepp";2010;"transaction";"https://www.heppnetz.de/ontologies/vso/ns";"rdf/xml"
+3;"Vehicle Signal Specification Ontology";;;"W3C Automotive and Transportation Business Group";2022;"transport";"https://raw.githubusercontent.com/w3c/vsso/gh-pages/spec/vss_rel_2.2.ttl";"ttl"
+42;"VesselAI";;;"Georgios Santipantakis";2023;"transport";"http://83.212.101.70/vesselAI_ontology_v2.html";
