@@ -8,7 +8,8 @@ Created on Sat Aug 10 11:19:01 2024
 
 from rdflib import Graph
 import pandas as pd
-import urllib.request
+import requests
+import re
 
 #%% import db of ontologies
 file = 'ontology_set/20240308_ontologies_and_standards.csv'
@@ -23,7 +24,21 @@ df = df[mask].reset_index(drop=True)
 
 d = df.to_dict('index')
 
-#%%
+#%% retrieve the related ontologies to the current ontology
+for ontology in d:
+    ontology_file = requests.get(d[ontology]['url']).text
+    
+    l = ontology_file.split('@prefix')
+    l.pop(0)
+    
+    for n in range(len(l)):
+        l[n] = l[n].split('>', maxsplit=1)[0]
+        l[n] = l[n].split('<', maxsplit=1)[1]
+        if l[n] == d[ontology]['url']:
+            l.pop(n)
+        
+    d[ontology]['linked_ontologies']=l
+#%% Add graphs
 
 for n in d:
     try:
@@ -31,11 +46,10 @@ for n in d:
         
     except:
         d[n]['graph']=Graph().parse(d[n]['url'], format='ttl')
-    
-#%% Graph manipulation   
+
+#%% Graph manipulation
 
 g = d[0]['graph']
-#%%
 
 for s, p, o in g:
     print((s, p, o))
