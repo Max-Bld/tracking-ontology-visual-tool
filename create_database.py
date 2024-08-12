@@ -10,11 +10,20 @@ from rdflib import Graph
 import pandas as pd
 import requests
 import re
+from functions import extract_ttl_prefixes
 
 #%% import db of ontologies
 file = 'ontology_set/20240308_ontologies_and_standards.csv'
 
 df = pd.read_csv(file, sep=";").drop('id', axis= 1)
+
+#%% Data Cleaning
+
+mask =  df['url'].str.endswith('ttl', na=False)
+df.loc[mask, 'syntax'] = 'ttl'
+
+mask =  df['url'].str   .endswith('rdf', na=False)
+df.loc[mask, 'syntax'] = 'rdf'
 
 #%% Get list of ttl or rdf ontologies
 
@@ -28,16 +37,13 @@ d = df.to_dict('index')
 for ontology in d:
     ontology_file = requests.get(d[ontology]['url']).text
     
-    l = ontology_file.split('@prefix')
-    l.pop(0)
-    
-    for n in range(len(l)):
-        l[n] = l[n].split('>', maxsplit=1)[0]
-        l[n] = l[n].split('<', maxsplit=1)[1]
-        if l[n] == d[ontology]['url']:
-            l.pop(n)
+    if d[ontology]['syntax']=='ttl':
+        list_of_prefixes = extract_ttl_prefixes(ontology_file)
         
-    d[ontology]['linked_ontologies']=l
+        d[ontology]['linked_ontologies']=list_of_prefixes
+        
+
+#%% Visualize the relations between ontologies
 #%% Add graphs
 
 for n in d:
